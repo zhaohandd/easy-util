@@ -1,4 +1,12 @@
 # easy-util
+### Test.class
+```
+public class Test {
+    String data;
+    public String getData() {return data;}
+    public void setData(String data) {this.data = data;}
+}
+```
 ### 特定执行器
 ```
 GeneralExecutor general = DefaultExecutorFactory.getExecutor(GeneralExecutor.class);
