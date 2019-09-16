@@ -21,7 +21,7 @@ public class ProcessUtil {
         StringBuffer sb = new StringBuffer();
         String text = "";
         while ((line = in.readLine()) != null) {
-            sb.append(line.trim()).append(" ");
+            sb.append(line.trim()).append(",");
             text = line;
         }
         if (onlyLastLine) {
